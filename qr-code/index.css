@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    
+    background-color:  ;
+    font-family: "Varela Round", sans-serif;
+    box-sizing: border-box;  
+}
+
+body{
+    min-height: 100vh;
+    background-color:  lightgray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.card{
+    border-radius: 15px;
+    background-color: white;
+    width: 350px;
+    height: 100%;
+    text-align: center;
+    box-shadow: 16px 19px 17px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+      
+}
+
+.card-container{
+    margin: 10% auto;
+}
+
+.card-container img{
+    width: 300px;
+    border-radius: 1rem;
+}
+
+.card-container h2{
+    font-weight: 700;
+    margin: 5% auto;
+    color: darkblue;
+}
+
+.card-container p{
+    font-weight: 400;
+    margin: 1rem 0;
+}
